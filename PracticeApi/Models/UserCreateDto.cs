@@ -7,6 +7,6 @@ namespace PracticeApi.Models
         [Required(ErrorMessage = "Name is required")] //name cant be empty
         [MaxLength(50, ErrorMessage ="Name cannot exceed 50 char" +
             "")] //limit length
-        public string Name { get; set; }
+        public string Name { get; set; } //added comemnt
     }
 }
